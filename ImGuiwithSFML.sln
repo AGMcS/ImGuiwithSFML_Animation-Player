@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImGuiwithSFML", "ImGuiwithSFML.vcxproj", "{0E6D6259-1F03-44BC-A275-9AE9F00F5D0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E6D6259-1F03-44BC-A275-9AE9F00F5D0D}.Debug|x64.ActiveCfg = Debug|x64
+		{0E6D6259-1F03-44BC-A275-9AE9F00F5D0D}.Debug|x64.Build.0 = Debug|x64
+		{0E6D6259-1F03-44BC-A275-9AE9F00F5D0D}.Debug|x86.ActiveCfg = Debug|Win32
+		{0E6D6259-1F03-44BC-A275-9AE9F00F5D0D}.Debug|x86.Build.0 = Debug|Win32
+		{0E6D6259-1F03-44BC-A275-9AE9F00F5D0D}.Release|x64.ActiveCfg = Release|x64
+		{0E6D6259-1F03-44BC-A275-9AE9F00F5D0D}.Release|x64.Build.0 = Release|x64
+		{0E6D6259-1F03-44BC-A275-9AE9F00F5D0D}.Release|x86.ActiveCfg = Release|Win32
+		{0E6D6259-1F03-44BC-A275-9AE9F00F5D0D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB45D206-1895-40CE-AA6E-8500B183EE22}
+	EndGlobalSection
+EndGlobal

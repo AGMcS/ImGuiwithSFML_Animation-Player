@@ -33,6 +33,33 @@ int main() {
             if (event.type == sf::Event::Closed) {
                 window.close();
             }
+            bool isPick = false;
+            bool isAxe = false;
+            bool isBow = false;
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Num1)){
+                isPick = true;
+                isAxe = false;
+                isBow = false;
+            }
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Num2)) {
+                isPick = false;
+                isAxe = true;
+                isBow = false;
+            }
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Num3)) {
+                isPick = false;
+                isAxe = false;
+                isBow = true;
+            }
+            if (isPick == true) {
+                std::cout << " Pick works test";
+            }
+            if (isAxe == true) {
+                std::cout << " Axe works";
+            }
+            if (isBow == true) {
+                std::cout << " Bow works";
+            }
 
         }
 

@@ -52,7 +52,7 @@ int main() {
                 isBow = true;
             }
             if (isPick == true) {
-                std::cout << " Pick works";
+                std::cout << " Pick works test";
             }
             if (isAxe == true) {
                 std::cout << " Axe works";

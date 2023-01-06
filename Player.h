@@ -1,20 +1,40 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-#include "Animation.h"
+
 
 class Player
 {
+private:
+	sf::Sprite sprite;
+	sf::Texture spriteSheet;
+
+	void initTexture();
+	void initSprite();
+
+
+	//Animation
+
+	//Movement
+
+
+	//Player status
+
+
+
 public:
-	Player(sf::Texture* texture, sf::Vector2u imageCount, float switchTime, float speed);
+	Player();
 	~Player();
 
-	void Update(float deltaTime);
-	void Draw(sf::RenderWindow& window);
 
-private:
-	sf::RectangleShape body;
-	Animation animation;
-	int row;
-	float speed;
-	bool faceRight;
+
+	//Methods
+
+	void Update();
+	void Render(sf::RenderTarget& target);
+
+
+
+
+
+
 };
